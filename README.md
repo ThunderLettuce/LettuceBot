@@ -1,2 +1,2 @@
 # LettuceBot
-This cabbage boi holds so much god damn spaghetti in it
+This leafy boi holds so much god damn spaghetti in it
