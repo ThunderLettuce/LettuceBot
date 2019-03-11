@@ -1,5 +1,11 @@
-# LettuceBot
-This leafy boi holds so much god damn spaghetti in it
+<h1>YikesBot</h1>
 
+<hr>
 
-I am working on a bot for discord that both looks great and feels great to use. This is my first programming project.
+<body>
+<p>This is a bot for discord that is both user friendly and looks great. This is my first project and I am learning Python in the progess</p>
+  
+  
+  <p>At the moment I am looking to have the bot search youtube for videos and play the audio in the voice channel.
+     I would also like to create a pleasent and intuitive UI/UX (within the limits of the bot)</p>
+</body>
