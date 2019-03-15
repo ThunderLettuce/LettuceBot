@@ -88,24 +88,6 @@ async def echo(*args):
         output += " "
     await client.say(output)
 
-@client.command(pass_context=True)
-async def play(ctx):
-    song_request = ctx.message.channel
-    embed = discord.Embed(
-        title = 'Song Search',
-        description = "Here's what we found for: " + str(song_request),
-        colour = discord.Colour.green()
-    )
-    embed.set_author(name='Please select a track', icon_url='https://cdn.discordapp.com/attachments/554107140382654515/554487736304664610/cool.png')
-    embed.add_field(name='songName1', value='SongURL', inline='False')
-    embed.add_field(name='songName2', value='SongURL', inline='False')
-    embed.add_field(name='songName3', value='SongURL', inline='False')
-    embed.add_field(name='songName4', value='SongURL', inline='False')
-    embed.add_field(name='songName5', value='SongURL', inline='False')
-    embed.set_footer(text='To Select a track, please select the corresponding emoji')
-    #await client.delete_message(song_request)
-    await client.say(embed=embed)
-
 @client.command
 async def logout():
     await client.logout()
